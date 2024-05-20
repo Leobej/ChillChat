@@ -10,7 +10,6 @@ class ServerCommandLineRunner : CommandLineRunner {
     @Autowired
     private val server: SocketIOServer? = null
 
-
     @Throws(Exception::class)
     override fun run(vararg args: String?) {
         server!!.start()

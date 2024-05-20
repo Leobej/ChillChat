@@ -30,7 +30,7 @@ dependencies {
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.springframework.boot:spring-boot-starter-websocket")
-    implementation("com.corundumstudio.socketio:netty-socketio:1.7.17")
+    implementation("com.corundumstudio.socketio:netty-socketio:2.0.9")
     developmentOnly("org.springframework.boot:spring-boot-devtools")
     runtimeOnly("com.h2database:h2")
     runtimeOnly("org.postgresql:postgresql")
